@@ -6,7 +6,7 @@ var prompt = require('prompt-sync')();
 
  if(value != null && value != '' && value != isNaN)
  {
-     //console.log("The square root of" + value + "equals" + answer);
+     
      if(value > 0 && value  % 2 == 0 ) {
         console.log("The square root of\n" + value + "\nequals\n " + answer);
         console.log(value + " is a odd number.");
